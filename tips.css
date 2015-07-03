@@ -1,0 +1,59 @@
+/*********************操作提示*************/
+.KZTip{
+    position:absolute;
+    /*padding:15px;*/
+    color:#eee;
+    background:none rgba(0, 0, 0, 0.7);
+    border-radius:5px;
+    display:none;
+    width:250px;
+    height:auto;
+}
+.KZTip .KZjt{
+    font-size:0;
+    height:0;
+    border:20px solid rgba(0, 0, 0, 0);
+    position:absolute
+}
+.KZTip .KZjt_left{
+    border-right:20px solid rgba(0, 0, 0, 0.7);
+    left:-40px;
+    top:40px
+}
+.KZTip .KZjt_right{
+    border-left:20px solid rgba(0, 0, 0, 0.7);
+    left:280px;
+    top:40px;
+}
+.KZTip .KZjt_topleft{
+    border-bottom:20px solid rgba(0, 0, 0, 0.7);
+    left:20px;top:-39px
+}
+.KZTip .KZjt_topright{
+    border-bottom:20px solid rgba(0, 0, 0, 0.7);
+    left:220px;
+    top:-40px
+}
+.KZTip .KZjt_bottomleft{
+    border-top:20px solid rgba(0, 0, 0, 0.7);
+    bottom:-40px;
+    left:20px;
+}
+.KZTip .KZjt_bottomright{
+    border-top:20px solid rgba(0, 0, 0, 0.7);
+    bottom:-40px;
+    left:220px;
+}
+
+.KZTip .KZTipTitle{
+    font-size:28px;
+    font-weight:bold;
+    padding-left:10px;
+    color:#387DEB;
+}
+.KZTip .KZTipContent{
+    text-indent: 2em;
+    padding: 0px 10px 0px 10px;
+    display: block;
+    font-size: 18px;
+}
