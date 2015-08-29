@@ -2,7 +2,6 @@
  * 操作提示控件
  */
 (function ($) {
-	$('#openHelpLink').prop('href',window.location.protocol + "//" + window.location.hostname+'/open/');
     var KZTips = function (ele, options) {
         this.$element = ele;
         this.defaults = {
