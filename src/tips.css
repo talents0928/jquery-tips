@@ -1,5 +1,5 @@
 /*********************操作提示*************/
-.KZTip{
+.Tip{
     position:absolute;
     /*padding:15px;*/
     color:#eee;
@@ -9,49 +9,49 @@
     width:250px;
     height:auto;
 }
-.KZTip .KZjt{
+.Tip .jt{
     font-size:0;
     height:0;
     border:20px solid rgba(0, 0, 0, 0);
     position:absolute
 }
-.KZTip .KZjt_left{
+.Tip .jt_left{
     border-right:20px solid rgba(0, 0, 0, 0.7);
     left:-40px;
     top:40px
 }
-.KZTip .KZjt_right{
+.Tip .jt_right{
     border-left:20px solid rgba(0, 0, 0, 0.7);
     left:280px;
     top:40px;
 }
-.KZTip .KZjt_topleft{
+.Tip .jt_topleft{
     border-bottom:20px solid rgba(0, 0, 0, 0.7);
     left:20px;top:-39px
 }
-.KZTip .KZjt_topright{
+.Tip .jt_topright{
     border-bottom:20px solid rgba(0, 0, 0, 0.7);
     left:220px;
     top:-40px
 }
-.KZTip .KZjt_bottomleft{
+.Tip .jt_bottomleft{
     border-top:20px solid rgba(0, 0, 0, 0.7);
     bottom:-40px;
     left:20px;
 }
-.KZTip .KZjt_bottomright{
+.Tip .jt_bottomright{
     border-top:20px solid rgba(0, 0, 0, 0.7);
     bottom:-40px;
     left:220px;
 }
 
-.KZTip .KZTipTitle{
+.Tip .TipTitle{
     font-size:28px;
     font-weight:bold;
     padding-left:10px;
     color:#387DEB;
 }
-.KZTip .KZTipContent{
+.Tip .TipContent{
     text-indent: 2em;
     padding: 0px 10px 0px 10px;
     display: block;
